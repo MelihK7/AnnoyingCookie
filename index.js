@@ -3,6 +3,8 @@ const modalCloseBtn = document.getElementById('modal-close-btn')
 const consentForm = document.getElementById('consent-form')
 const modalText = document.getElementById('modal-text')
 const declineBtn = document.getElementById('decline-btn')
+
+//modal choice buttons container for toggling flex direction every time user hovers over decline button
 const modalChoiceBtns = document.getElementById('modal-choice-btns')
 
 setTimeout(function(){
